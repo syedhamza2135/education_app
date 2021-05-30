@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="english.grammar.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/edu"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/edu"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <receiver android:name=".Receiver.Notification_receiver" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob__app_id" />
+
+        <activity android:name=".Contact.ContactUs" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".EnglishLessons" />
+        <activity android:name=".ConversationsList" />
+        <activity android:name=".ConversationTopics" />
+        <activity android:name=".MoralStories" />
+        <activity android:name=".StoryActivity" />
+        <activity android:name=".ConversationDialogActivity" />
+        <activity android:name=".PartOfSpeech_Detail" />
+        <activity android:name=".PartsOfSpeech" />
+        <activity android:name=".QuizOfTheDay" />
+        <activity android:name=".Tenses" />
+        <activity android:name=".Phrases" />
+        <activity android:name=".VocabularyWords" />
+        <activity android:name=".PastPerfectTense" />
+        <activity android:name=".PastPerfectContinuousTense" />
+        <activity android:name=".WordsActivity" />
+        <activity android:name=".FutureIndefinateTense" />
+        <activity android:name=".PresentContinuousTense" />
+        <activity android:name=".FuturePerfectContinuousTense" />
+        <activity android:name=".FutureContinuousTense" />
+        <activity android:name=".FuturePerfectTense" />
+        <activity android:name=".PastContinuousTense" />
+        <activity android:name=".FutureTense" />
+        <activity android:name=".PresentPerfectTense" />
+        <activity android:name=".PresentPerfectContinuousTense" />
+        <activity android:name=".PastIndefinateTense" />
+        <activity android:name=".FavouriteMessages" />
+        <activity android:name=".PresentTense" />
+        <activity android:name=".MessageOfTheDay" />
+        <activity android:name=".DictionaryActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".WordDetailActivity" />
+        <activity android:name=".PastTense" />
+        <activity android:name=".PresentIndefinateTense" />
+        <activity android:name=".EnglishExercise" />
+        <activity
+            android:name=".SplashActivity"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustResize" />
+    </application>
+
+</manifest>

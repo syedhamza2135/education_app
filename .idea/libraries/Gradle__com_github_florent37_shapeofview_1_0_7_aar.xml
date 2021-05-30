@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.florent37:shapeofview:1.0.7@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c233e969792f4b58ff38142e66f8f58/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b27e4f0a063e43a83f413a86e73ce03/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c233e969792f4b58ff38142e66f8f58/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c233e969792f4b58ff38142e66f8f58/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c233e969792f4b58ff38142e66f8f58/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b27e4f0a063e43a83f413a86e73ce03/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b27e4f0a063e43a83f413a86e73ce03/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b27e4f0a063e43a83f413a86e73ce03/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.florent37/shapeofview/1.0.7/44bb2a2798f024d2a96671b06240e350d3c32eb6/shapeofview-1.0.7-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.florent37/shapeofview/1.0.7/7e2725fde4cda59fdd5b4228eb4319b9e6aa0d57/shapeofview-1.0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

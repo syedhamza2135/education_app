@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact.ContactUs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:translationZ="5dp"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:gravity="start">
+
+                    <ImageButton
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:id="@+id/btnBack"
+                        android:background="@drawable/backblack"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="200dp"
+                    android:background="@drawable/edu"/>
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="130dp"
+                    android:layout_gravity="end"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/edu"
+                    app:civ_border_color="#40FFFFFF"
+                    app:civ_border_width="10dp" />
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Contact Info"
+                        android:fontFamily="@font/proximabold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/proximareg"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="AppRappers123"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/proximasemibold"
+                        android:text="Email: "/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/proximareg"
+                        android:text="belfqihabdelhay@gmail.com"/>
+
+                </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:visibility="gone"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="3dp"
+                        android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/proximasemibold"
+                        android:text="Phone: "/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:fontFamily="@font/proximareg"
+                        android:layout_height="wrap_content"
+                        android:text="+92-51-8742020/30"/>
+
+                </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:visibility="gone"
+                        android:layout_marginBottom="3dp"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:fontFamily="@font/proximasemibold"
+                        android:layout_height="wrap_content"
+                        android:text="Mobile: "/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:fontFamily="@font/proximareg"
+                        android:layout_height="wrap_content"
+                        android:text="+923335132397"/>
+
+                </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="10dp"
+                        android:visibility="gone"
+                        android:layout_marginBottom="3dp"
+                        android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:fontFamily="@font/proximasemibold"
+                        android:layout_height="wrap_content"
+                        android:text="Fax: "/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/proximareg"
+                        android:text="+920512806142"/>
+
+                </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/dash"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Address Info"
+                        android:fontFamily="@font/proximabold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/proximareg"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Office # 5, 3rd Floor, Executive Complex, G-8 Markaz, Islamabad"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="@font/proximasemibold"
+                            android:text="Qatar Office: "/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="@font/proximareg"
+                            android:text="Villa Villa 33, compound 279, Gharrafat Al-Rayyan Street, Al Gharrafa, Doha, Qatar"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:paddingBottom="20dp"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="3dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="@font/proximasemibold"
+                            android:text="UK Office: "/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:fontFamily="@font/proximareg"
+                            android:layout_height="wrap_content"
+                            android:text="Woodberry House, 2 Woodberry Grove, North Finchley, London NI20DR, UK"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

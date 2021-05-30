@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">English Grammar</string>
+    <string name="dictionary">English</string>
+    <string name="content_description_open_drawer">Open Drawer</string>
+    <string name="content_description_close_drawer">Closed Drawer</string>
+    <string name="steps">Steps</string>
+    <string name="copy_right" translatable="false">Copyrights © %1$d</string>
+
+<!--    Test Ads-->
+    <string name="admob__app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_adunit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_adunit_id_conversation">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_adunit_id_tenses">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_adunit_id_present_tense">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_adunit_id_past_tense">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_adunit_id_future_tense">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_adunit_id_pos">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_adunit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_adunit_id_dictionary">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_adunit_id_conversation">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_adunit_id_tenses">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_adunit_id_present_tense">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_adunit_id_past_tense">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_adunit_id_future_tense">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_adunit_id_pos">ca-app-pub-3940256099942544/1033173712</string>
+
+    <!--Real Ads-->
+    <!--<string name="admob__app_id">ca-app-pub-6171388739975381~3391243690</string>
+    <string name="banner_adunit_id">ca-app-pub-6171388739975381/8733810533</string>
+    <string name="banner_adunit_id_conversation">ca-app-pub-6171388739975381/7037585486</string>
+    <string name="banner_adunit_id_tenses">ca-app-pub-6171388739975381/5373930270</string>
+    <string name="banner_adunit_id_present_tense">ca-app-pub-6171388739975381/2556195243</string>
+    <string name="banner_adunit_id_past_tense">ca-app-pub-6171388739975381/5342140688</string>
+    <string name="banner_adunit_id_future_tense">ca-app-pub-6171388739975381/3133999492</string>
+    <string name="banner_adunit_id_pos">ca-app-pub-6171388739975381/4014060220</string>
+    <string name="interstitial_adunit_id">ca-app-pub-6171388739975381/1841879376</string>
+    <string name="interstitial_adunit_id_dictionary">ca-app-pub-6171388739975381/4100377054</string>
+    <string name="interstitial_adunit_id_conversation">ca-app-pub-6171388739975381/1635308893</string>
+    <string name="interstitial_adunit_id_tenses">ca-app-pub-6171388739975381/9130655535</string>
+    <string name="interstitial_adunit_id_present_tense">ca-app-pub-6171388739975381/7626002179</string>
+    <string name="interstitial_adunit_id_past_tense">ca-app-pub-6171388739975381/6121348818</string>
+    <string name="interstitial_adunit_id_future_tense">ca-app-pub-6171388739975381/6519490985</string>
+    <string name="interstitial_adunit_id_pos">ca-app-pub-6171388739975381/8364368770</string>-->
+
+</resources>

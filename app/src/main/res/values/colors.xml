@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#FF3D6F9B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="mainCardBg">#A216CB</color>
+    <color name="maincolor">#4F91CD</color>
+
+    <color name="bg">#F6F6F6</color>
+
+    <!--Card Colors-->
+    <color name="firstcard">#673AB7</color>
+    <color name="secondcard">#035A81</color>
+    <color name="thirdcard">#11E15D</color>
+    <color name="fourthcard">#FFB217</color>
+    <color name="fifthcard">#160D95</color>
+    <color name="sixthcard">#F10B0B</color>
+    <color name="editTextBG">#DADADA</color>
+
+    <!--Tenses-->
+    <color name="present">#54BE48</color>
+    <color name="past">#FBAE14</color>
+    <color name="future">#BF2449</color>
+    <color name="txtcolor">#707070</color>
+
+    <!--urdu-->
+    <color name="urdu">#4F91CD</color>
+
+</resources>
