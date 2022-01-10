@@ -78,6 +78,16 @@ public class SpellCheckerActivity extends Activity implements SpellCheckerSessio
                                     JSONObject respObj = new JSONObject(response);
                                     JSONObject resObj2 = respObj.getJSONObject("response");
                                     JSONArray resArray1 = resObj2.getJSONArray("errors");
+
+                                    if(resArray1.length()==0){
+                                        runOnUiThread(new Runnable() {
+                                            public void run() {
+//                                                tv1.append( " ");
+                                                tv1.setText( "Congrates Spelling is right  ");
+                                            }
+                                        });
+                                        return;
+                                    }
                                     for (int j = 0; j < resArray1.length(); j++) {
                                         JSONObject resObj3 = resArray1.getJSONObject(j);
 //                                    tv1.setText(resObj3.get("bad")+"  new");
